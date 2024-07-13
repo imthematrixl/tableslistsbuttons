@@ -1,0 +1,84 @@
+<!DOCTYPE <html>
+    <html>
+        <head>
+         <meta charset="UTF-8">
+         <title>lists,tables,buttons</title>
+       
+        </head>
+        <body>
+  <!-- unordered lists -->
+   <h1>Grocceries</h1>
+   <ul>
+    <li>Milk</li>
+    <li>eggs</li>
+    <li>coffe</li>
+    <li>bread</li>
+    <li>coffee supplies</li>
+    <ul>
+        <li>coffe beans</li>
+        <li>sugar</li>
+
+
+    </ul>
+   </ul>
+   <!--ordered-->
+   <h1>To Do List</h1>
+   <ol>
+    <li>Get up</li>
+    <li>code</li>
+    <li>eat</li>
+   </ol>
+    <!--description-->
+    <h1>mythical creatures</h1>
+    <dl style="background-color: blueviolet;">
+        <dt>dragon
+        </dt>
+        <dd>A dragon is a magical legendary creature that 
+            appears in the folklore of multiple cultures worldwide.
+             Beliefs about dragons vary conside</dd>
+        <dt
+        >vampire
+        </dt>
+        <dd>mythical creature that subsists by feeding on the vital essence (generally in the form of blood) of the living.</dd>
+        <dt>werewolf
+        </dt>
+        <dd>immortal bird that cyclically regenerates or is otherwise born again. While it is part of Greek mythology</dd>
+    </dl>
+ <!-- creating tables-->
+    <h1>store hours</h1>
+    <table border="2" style="background-color: rgb(230, 193, 139);">
+        <tr align="center" style="background-color: rgb(101, 101, 245);">
+            <th width="100" >Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr align="center" style="background-color: aliceblue;">
+            <td>Closed</td>
+            <td>9:00-15:00</td>
+            <td>9:00-15:00</td>
+            <td>9:00-15:00</td>
+            <td>9:00-15:00</td>
+            <td>9:00-15:00</td>
+            <td>9:00-14:00</td>
+        </tr>
+    </table>
+    <!--buttons-->
+    <a href="https://chatgpt.com"
+    target="_blank">
+
+    <button style="font-size: 100px; background-color: blue; color: white; border-radius: 10px;">Chat GPT </button>
+</a> <br>
+
+<button onclick="doSomething()"  style="font-size: 130px ;background-color: rgb(103, 59, 144); color: black; border-radius: 30px;">click me</button>
+<h1 id="greeting">Hello</h1>
+<script>
+function doSomething() {
+    document.getElementById("greeting").innerHTML = "Goodbye uwuww";
+}
+</script>
+        </body>
+    </html>
